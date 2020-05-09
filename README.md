@@ -1,2 +1,4 @@
 ### Spoiler Detection in Movie Reviews
 An algorithm that detects spoilers from user-generated movie reviews from IMDB. This leverages natural language analytics methods including NLP and NLU. Original datasets (data collected via IMDB) can be found [here](https://www.kaggle.com/rmisra/imdb-spoiler-dataset).
+
+Part 1 of the ipython notebook explores the data and runs some model experimentation (including logistic regression, random forest, and gradient-boosted trees) to develop a grounded classifier to detect spoiler content from user reviews. Part 2 leverages this model to build a simple `!Spoilers Here Tool` (as proof-of-concept) in which a user can enter a movie ID and receive summary movie info, including mean movie rating, mean user rating, and an extractive text summarisation of matching reviews that don't contain toxic spoiler content.
